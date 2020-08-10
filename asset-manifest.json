@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AryVidot/weatherReact/static/css/main.94b7f8c5.chunk.css",
-    "main.js": "/AryVidot/weatherReact/static/js/main.16a5fd09.chunk.js",
-    "main.js.map": "/AryVidot/weatherReact/static/js/main.16a5fd09.chunk.js.map",
-    "runtime-main.js": "/AryVidot/weatherReact/static/js/runtime-main.c13abf55.js",
-    "runtime-main.js.map": "/AryVidot/weatherReact/static/js/runtime-main.c13abf55.js.map",
-    "static/js/2.d35284ff.chunk.js": "/AryVidot/weatherReact/static/js/2.d35284ff.chunk.js",
-    "static/js/2.d35284ff.chunk.js.map": "/AryVidot/weatherReact/static/js/2.d35284ff.chunk.js.map",
-    "index.html": "/AryVidot/weatherReact/index.html",
-    "precache-manifest.7d6a3bc17063cb8b34e2e11cfd8b793e.js": "/AryVidot/weatherReact/precache-manifest.7d6a3bc17063cb8b34e2e11cfd8b793e.js",
-    "service-worker.js": "/AryVidot/weatherReact/service-worker.js",
-    "static/css/main.94b7f8c5.chunk.css.map": "/AryVidot/weatherReact/static/css/main.94b7f8c5.chunk.css.map",
-    "static/js/2.d35284ff.chunk.js.LICENSE.txt": "/AryVidot/weatherReact/static/js/2.d35284ff.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/AryVidot/weatherReact/static/media/bkg1.9bc6b548.jpg"
+    "main.css": "/weatherReact/static/css/main.6b2154d6.chunk.css",
+    "main.js": "/weatherReact/static/js/main.16a5fd09.chunk.js",
+    "main.js.map": "/weatherReact/static/js/main.16a5fd09.chunk.js.map",
+    "runtime-main.js": "/weatherReact/static/js/runtime-main.8b5cfcbc.js",
+    "runtime-main.js.map": "/weatherReact/static/js/runtime-main.8b5cfcbc.js.map",
+    "static/js/2.d35284ff.chunk.js": "/weatherReact/static/js/2.d35284ff.chunk.js",
+    "static/js/2.d35284ff.chunk.js.map": "/weatherReact/static/js/2.d35284ff.chunk.js.map",
+    "index.html": "/weatherReact/index.html",
+    "precache-manifest.048a118d2ea2c8e492a5140694d27ed5.js": "/weatherReact/precache-manifest.048a118d2ea2c8e492a5140694d27ed5.js",
+    "service-worker.js": "/weatherReact/service-worker.js",
+    "static/css/main.6b2154d6.chunk.css.map": "/weatherReact/static/css/main.6b2154d6.chunk.css.map",
+    "static/js/2.d35284ff.chunk.js.LICENSE.txt": "/weatherReact/static/js/2.d35284ff.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/weatherReact/static/media/bkg1.9bc6b548.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c13abf55.js",
+    "static/js/runtime-main.8b5cfcbc.js",
     "static/js/2.d35284ff.chunk.js",
-    "static/css/main.94b7f8c5.chunk.css",
+    "static/css/main.6b2154d6.chunk.css",
     "static/js/main.16a5fd09.chunk.js"
   ]
 }
