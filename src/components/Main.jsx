@@ -5,7 +5,7 @@ import WeatherSearch from "./WeatherSearch";
 import Content from "./Content";
 import Location from "./Location";
 import WeatherData from "./WeatherData";
-// import Error from "./Error";
+import Error from "./Error";
 
 const Main = () => {
   const [weather, setWeather] = useState();
@@ -14,9 +14,12 @@ const Main = () => {
   const [description, setDescription] = useState("");
   const [icon, setIcon] = useState("");
 
+  // const [error, setError] = useState("");
+
   const api_call = async (e) => {
     e.preventDefault();
     const location = e.target.elements.location.value;
+    // if (!location) return setError("Please choose a City!"), setWeather(null);
 
     const API_KEY = "b3eeac9873199e3b6c23996e0eb4ab5e";
 
@@ -31,6 +34,7 @@ const Main = () => {
     setCountry(response.data.sys.country);
     setIcon(response.data.weather[0].icon);
     setDescription(response.data.weather[0].main);
+    // setError(null);
   };
 
   weather && console.log(weather);
@@ -38,6 +42,7 @@ const Main = () => {
   return (
     <div>
       <WeatherSearch api_call={api_call} />
+      {/* {error && <Error error={error} />} */}
       <Content>
         {weather && <Location city={city} country={country} />}
         {weather && (
