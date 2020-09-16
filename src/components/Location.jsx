@@ -39,7 +39,7 @@ const Location = (props) => {
     <div>
       <div className="location-box">
         <div name="city" className="location">
-          {props.city}, {props.country}
+          {props.city} - {props.country}
         </div>
         <div className="date"> {dateBuilder(new Date())} </div>
         <div className="box"></div>
