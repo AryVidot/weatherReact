@@ -12,7 +12,6 @@ body {
 }
 
 .app {
-  /* margin: auto; */
   background-image: url(./assets/pexels-zaksheuskaya-1568607.jpg);
   background-size: cover;
   background-position: bottom;
@@ -45,14 +44,12 @@ form {
   width: 50%;
   position: relative;
   margin: auto;
-  /* background: chartreuse; */
 }
 
 input {
   width: 100%;
   height: 60px;
   display: block;
-  font-size: ;
 }
 
 button {
@@ -61,7 +58,6 @@ button {
   width: 3em;
   height: 100%;
   border-radius: 50%;
-  /* height: 3em; */
   padding: 10px;
   border: none;
   font-size: 1.25rem;
@@ -118,11 +114,9 @@ button:focus {
   font-size: 3rem;
   font-weight: 800;
   text-shadow: 2px 2px rgb(224, 24, 117);
-  /* background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .location-box .date {
-  /* padding: 0 20px; */
   width: 50%;
   position: absolute;
   top: 25%;
@@ -133,7 +127,6 @@ button:focus {
   text-align: center;
   font-style: italic;
   background-color: rgb(25, 233, 216);
-  /* text-shadow: 2px 2px rgba(50, 50, 70, 0.5); */
 }
 
 .box {
@@ -143,11 +136,11 @@ button:focus {
   background-size: cover;
   background-position: center;
   background-color: rgba(129, 228, 63, 1);
-  /* box-shadow: 2px 2px rgba(251, 251, 255, 0.5); */
   box-shadow: 0px 0px 15px 0px rgba(251, 251, 255, 1);
   margin: auto;
 }
 
+/* === Weather Data === */
 .weather-data__box {
   text-align: center;
   margin: auto;
