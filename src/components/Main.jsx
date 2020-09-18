@@ -5,7 +5,6 @@ import WeatherSearch from "./WeatherSearch";
 import Content from "./Content";
 import Location from "./Location";
 import WeatherData from "./WeatherData";
-import Error from "./Error";
 
 const Main = () => {
   const [weather, setWeather] = useState();
