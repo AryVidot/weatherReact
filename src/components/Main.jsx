@@ -20,7 +20,7 @@ const Main = () => {
     const location = e.target.elements.location.value;
     // if (!location) return setError("Please choose a City!"), setWeather(null);
 
-    const API_KEY = "b3eeac9873199e3b6c23996e0eb4ab5e";
+    const API_KEY = process.env.REACT_APP_API_KEY;
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`;
 
